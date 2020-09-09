@@ -1,49 +1,150 @@
 .App{
-  position: relative;
   text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-.frame {
-  height: 500px;
-  width: 50%;
+body {
+    margin: 0;
 }
+
 .header{
-    position: absolute;
-    color: #0C6AE0;
-    margin-left: 5px;
-    top: 3px;
-    font-size: 20px;
+    background-color: #F9F9F8;
+    height: 65px;
+    border-top: 2px solid #4AB1B3;
+    /*width: 50%;*/
+    /*margin-left: 20%;*/
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.footer{
-    position: absolute;
-    bottom: 25px;
-    font-size: 20px;
-    color: red;
-    left: 50%;
-}
-
-.setting-content {
-    height: 75px;
-    width: 50px;
-    background: #FFFFFF;
-    position: absolute;
-    left: 20px;
-}
-
-.setting-close {
-    position: absolute;
-    color: #000000;
-    margin-left: 10px;
-    top: 3px;
-    font-size: 12px;
-}
-
-.showVideo {
+.div1 {
+    background-color: #062C5E;
     color: #FFFFFF;
-    background-color: #8e8eb5;
-    width: 5%;
-    margin-left: 45%;
-    padding: 3px;
-    cursor: pointer;
+    padding: 10px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.div2 {
+    background-color: #EB3C32;
+    color: #FFFFFF;
+    padding: 10px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.div3 {
+    background-color: #901D1A;
+    color: #FFFFFF;
+    padding: 10px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.child-div1 {
+    background-color: #FFFFFF;
+    width: 65px;
+    margin-left: 10px;
+    color: #647B9B;
+}
+
+.child-div2 {
+     background-color: #FFFFFF;
+     width: 65px;
+     margin-left: 10px;
+     color: #EB3C32;
+ }
+
+.child-div3 {
+      background-color: #FFFFFF;
+      width: 65px;
+      margin-left: 10px;
+      color: #901D1A;
+  }
+
+.content {
+    display: flex;
+    /*margin-left: 21%;*/
+}
+
+.course-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 23px;
+}
+
+.each-course {
+    width: 25%;
+}
+
+.chemistry {
+    background-color: #FEF4EF;
+    border-left: 2px solid #E3623A;
+}
+
+.physics {
+    background-color: #FCECF3;
+    border-left: 2px solid #E14381;
+}
+
+.mathematics {
+    background-color: #F9F1FE;
+    border-left: 2px solid #A049CC;
+}
+
+.timings {
+    margin-top: 20px;
+}
+
+.each-time {
+    padding: 10px;
+}
+
+.course-details {
+    padding-bottom: 10px;
+}
+
+.physics-details {
+    color: #F2AAC7;
+}
+
+.chem-details {
+    color: #F9D0C3;
+}
+
+.maths-details {
+    color: #B673D9;
+}
+
+.teacher {
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.footer {
+    border-top: 2px solid #68676F;
+    /*width: 50%;*/
+    /*margin-left: 20%;*/
+}
+
+.live {
+    position: absolute;
+    top: 21%;
+    margin-left: 2%;
+    color: #FFFFFF;
+    background: #CC2E2A;
+    font-size: 15px;
+}
+
+.now-playing {
+    position: absolute;
+    top: 57%;
+    color: #FFFFFF;
+    background: #F5BFBE;
+    font-size: 15px;
 }
